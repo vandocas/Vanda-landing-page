@@ -27,14 +27,18 @@ html {
   }
   h4 {
       font-size: larger;
+      text-align: center;
+      margin: 0 10px 10px 10px;
   }
   p {
       font-size: medium;
-      text-align: right;
-      margin-left: 300px;
+      text-align: center;
+      margin: 0 300px 100px 300px;
   }
   h3 {
       font-size: medium;
+      text-align: center;
+      margin: 0 10px 10px 10px;
   }
 
   .viewportimage {
@@ -56,75 +60,99 @@ html {
   }
     .vandaphoto {
         margin: 0 auto;
-        width: 200px;
-        padding: 50px 0 50px 50px;
+        width: 300px;
+        padding: 10px 0 20px 50px;
         text-align: center;
     }
-#portfolio {
+
+    #aboutme {
+        color: #160112;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #portfolio {
     background-color: #fca0a0;
     color: #160112;
-    display: flex;
-}
-#portfolio hr {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px 10% 0 10%;
+    border-radius: inherit;
+    padding: 100px;
+    
+    }
+    
+    #portfolio hr {
     width: 50%;
-  }
+    }
 
+    .design {
+        margin: 0 auto;
+        width: 10px;
+        padding: 100px;
+        text-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        }
 
-.card {
+    .productdesign {
     margin: 0 auto;
-    width: 300px;
-    padding: 50px 0;
+    width: 10px;
+    padding: 100px;
     text-align: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.architecture {
+    justify-content: flex-start;
+    }
+    
+    .architecture {
     margin: 0 auto;
-    width: 300px;
-    padding: 50px 0;
+    width: 10px;
+    padding: 50px;
     text-align: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.scenography {
+    justify-content: flex-start;
+    }
+    
+    .scenography {
     margin: 0 auto;
-    width: 300px;
-    padding: 50px 0;
+    width: 10px;
+    padding: 100px;
     text-align: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.skills {
+    justify-content: flex-start;
+    }
+    
+    .skills {
     margin: 0 auto;
-    width: 300px;
-    padding: 50px 0;
+    width: 10px;
+    padding: 100px;
     text-align: center;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
+    justify-content: flex-start;
+    }
 
-.card ul {
+    .card ul {
     list-style: none;
-    text-align: left;
-    margin: 30px 0;
-}
+    justify-content: flex-start;
+    margin: 10px 50px 10px 20px;
+    flex-direction: column;
+    }
 
-hr {
-    max-width: 10%;
-}
+    hr {
+    max-width: 100%;
+    }
 
-footer {
+    footer {
     background-color: #C55959;
     color: #f7ebf5;
     height: 100px;
     padding: 100px;
     text-align: center;
-}
-footer ul {
+    }
+    
+    footer ul {
     list-style: none;
     margin-bottom: 0;
-}
+    }
